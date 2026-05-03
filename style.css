@@ -153,12 +153,11 @@ footer{
 
 
 
-.footer-content span{
+.footer-content span a{
 
     color: #aa17b0;
-
     font-weight: bold;
-
+    text-decoration: none;
     text-transform: uppercase;
 
 }
@@ -171,13 +170,6 @@ footer{
 
     background-color: #444;
 
-}
-
-a {
-    text-decoration: none;
-    color: #aa17b0;
-
-    font-weight: bold;
 }
 
 
