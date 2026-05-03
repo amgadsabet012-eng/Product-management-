@@ -96,8 +96,6 @@ table th{
 }
 table td{
     padding: 5px;
-    /* border-bottom: 1px solid #fff;
-    padding:10px 0; */
 }
 #deleteAll{
     margin: 20px 0;
@@ -107,34 +105,22 @@ table td{
 
 footer {
     background-color: #1a1a1a; 
-    text-align: center;
-    padding: 15px 0;
-    margin-top: 50px;
+    padding: 10px 0;           
+    margin-top: 30px;
     border-top: 2px solid #aa17b0;
+    text-align: center;
 }
 
 footer p {
-    color: #eee;
     font-size: 14px;
     margin: 5px 0;
-    letter-spacing: 1px;
+    color: #eee;
 }
 
-footer a {
-    color: #aa17b0; 
-    text-decoration: none; 
+footer span {
+    color: #aa17b0;
     font-weight: bold;
-    text-transform: uppercase;
-    transition: 0.3s ease;
 }
-
-
-footer a:hover {
-    color: #fff; 
-    text-shadow: 0 0 8px #aa17b0; 
-}
-
-
 
 .typewriter{
     
