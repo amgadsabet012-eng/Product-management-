@@ -104,81 +104,35 @@ table td{
 }
 
 
-footer{
 
-   background-color: #111;
-
-   color: #eee;
-
-   padding: 10px 0 ;
-
-   margin-top: 30px;
-
-   border-top:2px solid #aa17b0 ;
-
-   text-align: center;
-
-   border-radius: 15px;
-
-   -webkit-border-radius: 15px;
-
-   -moz-border-radius: 15px;
-
-   -ms-border-radius: 15px;
-
-   -o-border-radius: 15px;
-
+footer {
+    background-color: #1a1a1a; 
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 50px;
+    border-top: 2px solid #aa17b0;
 }
 
-
-
-.footer-content{
-
-    display: flex;
-
-    flex-direction: column;
-
-    align-items: center;
-
-    gap: 10px;
-
+footer p {
+    color: #eee;
+    font-size: 14px;
+    margin: 5px 0;
+    letter-spacing: 1px;
 }
 
-.footer-content p{
-
-    font-size: 13px;
-
-    letter-spacing: 1.5px;
-
-    margin:5px 0;
-
-}
-
-
-
-.footer-content span{
-
-    color: #aa17b0;
-
+footer a {
+    color: #aa17b0; 
+    text-decoration: none; 
     font-weight: bold;
-
     text-transform: uppercase;
-
-}
-
-.line{
-
-    width: 50px;
-
-    height: 2px;
-
-    background-color: #444;
-
+    transition: 0.3s ease;
 }
 
 
-
-
+footer a:hover {
+    color: #fff; 
+    text-shadow: 0 0 8px #aa17b0; 
+}
 
 
 
