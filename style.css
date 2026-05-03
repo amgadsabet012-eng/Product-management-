@@ -101,41 +101,81 @@ table td{
     margin: 20px 0;
 }
 
+footer{
 
-footer {
-    background-color: #111; 
-    color: #eee;
-    padding: 20px 0;
-    margin-top: 50px;
-    border-top: 4px solid #aa17b0; 
-    text-align: center;
+   background-color: #111;
+
+   color: #eee;
+
+   padding: 10px 0 ;
+
+   margin-top: 30px;
+
+   border-top:2px solid #aa17b0 ;
+
+   text-align: center;
+
+   border-radius: 15px;
+
+   -webkit-border-radius: 15px;
+
+   -moz-border-radius: 15px;
+
+   -ms-border-radius: 15px;
+
+   -o-border-radius: 15px;
+
 }
 
-.footer-content {
+
+
+.footer-content{
+
     display: flex;
+
     flex-direction: column;
+
     align-items: center;
+
     gap: 10px;
+
 }
 
-.footer-content p {
-    font-size: 15px;
+.footer-content p{
+
+    font-size: 13px;
+
     letter-spacing: 1.5px;
-    margin: 0;
+
+    margin:5px 0;
+
 }
 
-.footer-content span {
-    color: #aa17b0; 
+
+
+.footer-content span{
+
+    color: #aa17b0;
+
     font-weight: bold;
+
     text-transform: uppercase;
+
 }
 
-.line {
+.line{
+
     width: 50px;
+
     height: 2px;
-    background-color: #444; 
+
+    background-color: #444;
+
 }
 
+a {
+    text-decoration: none;
+}
 
 
 .typewriter{
